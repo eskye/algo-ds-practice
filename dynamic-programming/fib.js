@@ -4,3 +4,6 @@ const fib = (n, memo = {}) => {
     memo[n] = fib(n-1, memo) + fib(n-2, memo);
     return memo[n];
 }
+
+console.log(fib(299));
+console.log(fib(100)); 
